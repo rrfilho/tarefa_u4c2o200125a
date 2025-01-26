@@ -25,7 +25,7 @@ int main() {
             case '2': led_matrix_draw_animation(animation_two); break;
             case '3': led_matrix_draw_animation(animation_three); break;
             case '4': led_matrix_draw_animation(animation_four); break;
-            case '5': led_matrix_draw_animation(animation_five); break;
+            case '8': led_matrix_draw_animation(animation_eight); break;
             case 'A': led_matrix_draw("000000"); break;
             case 'B': led_matrix_draw("0000FF"); break;
             case 'C': led_matrix_draw("CC0000"); break; // 255*80% = 204 = 0xCC

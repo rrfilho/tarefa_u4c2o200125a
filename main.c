@@ -6,8 +6,10 @@
 #include "animation_two.h"
 #include "animation_three.h"
 #include "animation_four.h"
+#include "animation_five.h"
+#include "animation_six.h"
+#include "animation_seven.h"
 #include "animation_eight.h"
-
 
 void init() {
     stdio_init_all();
@@ -25,6 +27,9 @@ int main() {
             case '2': led_matrix_draw_animation(animation_two); break;
             case '3': led_matrix_draw_animation(animation_three); break;
             case '4': led_matrix_draw_animation(animation_four); break;
+            case '5': led_matrix_draw_animation(animation_five); break;
+            case '6': led_matrix_draw_animation(animation_six); break;
+            case '7': led_matrix_draw_animation(animation_seven); break;
             case '8': led_matrix_draw_animation(animation_eight); break;
             case 'A': led_matrix_draw("000000"); break;
             case 'B': led_matrix_draw("0000FF"); break;

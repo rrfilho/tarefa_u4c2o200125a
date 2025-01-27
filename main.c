@@ -7,6 +7,7 @@
 #include "animation_three.h"
 #include "animation_four.h"
 #include "animation_five.h"
+#include "animation_six.h"
 
 
 void init() {
@@ -26,6 +27,7 @@ int main() {
             case '3': led_matrix_draw_animation(animation_three); break;
             case '4': led_matrix_draw_animation(animation_four); break;
             case '5': led_matrix_draw_animation(animation_five); break;
+            case '6': led_matrix_draw_animation(animation_six); break;
             case 'A': led_matrix_draw("000000"); break;
             case 'B': led_matrix_draw("0000FF"); break;
             case 'C': led_matrix_draw("CC0000"); break; // 255*80% = 204 = 0xCC
